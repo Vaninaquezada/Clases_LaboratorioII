@@ -1,0 +1,14 @@
+D:\VisualStudio\listas\listas\bin\Debug\listas.exe.config
+D:\VisualStudio\listas\listas\bin\Debug\listas.exe
+D:\VisualStudio\listas\listas\bin\Debug\listas.pdb
+D:\VisualStudio\listas\listas\obj\Debug\listas.csprojAssemblyReference.cache
+D:\VisualStudio\listas\listas\obj\Debug\listas.csproj.CoreCompileInputs.cache
+D:\VisualStudio\listas\listas\obj\Debug\listas.exe
+D:\VisualStudio\listas\listas\obj\Debug\listas.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Clase_7\listas\listas\bin\Debug\listas.exe.config
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Clase_7\listas\listas\bin\Debug\listas.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Clase_7\listas\listas\bin\Debug\listas.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Clase_7\listas\listas\obj\Debug\listas.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Clase_7\listas\listas\obj\Debug\listas.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Clase_7\listas\listas\obj\Debug\listas.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Clase_7\listas\listas\obj\Debug\listas.pdb
