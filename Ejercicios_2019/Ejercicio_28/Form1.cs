@@ -34,17 +34,30 @@ namespace Ejercicio_28
                     dicPalabras.Add(item.ToLower(), 1);
                 }
             }
-
+           
+           dicPalabras.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
 
 
             StringBuilder sb = new StringBuilder();
-            foreach (var item in dicPalabras)
-            {
-                sb.Append(item.Key.ToString());
-               sb.Append(" ");
-               sb.AppendLine(item.Value.ToString());
-               //sb.AppendLine(item.ToString());
+            int cont = 0;
+                  foreach (var item in dicPalabras)
+                    {
+                if (cont < 3)
+                {
+                    sb.Append(item.Key.ToString());
+                    sb.Append(" ");
+                    sb.AppendLine(item.Value.ToString());
+                    //sb.AppendLine(item.ToString());
+                    cont++;
+                }
+
+
+
+
             }
+                   
+
+           
 
             MessageBox.Show(sb.ToString());
 
