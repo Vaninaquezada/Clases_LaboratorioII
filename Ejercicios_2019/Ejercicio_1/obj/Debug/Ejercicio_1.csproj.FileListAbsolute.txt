@@ -1,0 +1,14 @@
+D:\VisualStudio\Ejercicios_2019\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
+D:\VisualStudio\Ejercicios_2019\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+D:\VisualStudio\Ejercicios_2019\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
+D:\VisualStudio\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.exe
+D:\VisualStudio\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
