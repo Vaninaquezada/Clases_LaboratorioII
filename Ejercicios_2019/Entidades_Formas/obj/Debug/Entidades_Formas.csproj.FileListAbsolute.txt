@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Entidades_Formas\bin\Debug\Entidades_Formas.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Entidades_Formas\bin\Debug\Entidades_Formas.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Entidades_Formas\obj\Debug\Entidades_Formas.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Entidades_Formas\obj\Debug\Entidades_Formas.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Entidades_Formas\obj\Debug\Entidades_Formas.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Entidades_Formas\obj\Debug\Entidades_Formas.pdb
