@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ComiqueriaLogic
 {
-    class Comiqueria
+  public  class Comiqueria
     {
         private List<Producto> productos;
         private List<Venta> ventas;
@@ -33,16 +33,30 @@ namespace ComiqueriaLogic
             this.productos = new List<Producto>();
             this.ventas = new List<Venta>();
         }
-         public IDictionary<Guid,string> ListarProductos()
+         public Dictionary<Guid,string> ListarProductos()
         {
+            Dictionary<Guid, string> diccionario = new Dictionary<Guid, string>();
+
+            foreach (var item in this.productos)
+            {
+                diccionario.Add((Guid)item,item.Descripcion);
+            }
 
 
+            return diccionario;
         }
 
         public string ListarVentas()
         {
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var item in this.ventas)
+            {
+                sb.AppendLine(item.ObtenerDescripcionBreve());
+            }
 
 
+            return sb.ToString(); 
         }
         public void Vender(Producto producto) {
 
@@ -50,7 +64,7 @@ namespace ComiqueriaLogic
         }
         public void Vender(Producto producto, int cantidad) {
 
-            this.ventas.Add();
+            this.ventas.Add(new Venta(producto, cantidad));
         }
 
 

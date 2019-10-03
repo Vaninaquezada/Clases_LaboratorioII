@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Practica Parcial\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Practica Parcial\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Practica Parcial\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Practica Parcial\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Practica Parcial\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Practica Parcial\20190509 - PP Lab II\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.pdb
