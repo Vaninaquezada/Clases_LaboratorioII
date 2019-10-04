@@ -31,11 +31,11 @@ namespace ComiqueriaLogic
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(base.ToString());
-            sb.AppendLine("Autor: ");
-            sb.Append(this.autor);
+            sb.Append("Autor: ");
+            sb.AppendLine(this.autor);
 
-            sb.AppendLine("Tipo Comic: ");
-            sb.Append(this.tipoComic.ToString());
+            sb.Append("Tipo Comic: ");
+            sb.AppendLine(this.tipoComic.ToString());
 
             return sb.ToString();
         }

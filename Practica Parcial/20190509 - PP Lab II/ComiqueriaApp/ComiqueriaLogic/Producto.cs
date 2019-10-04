@@ -59,17 +59,17 @@ namespace ComiqueriaLogic
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Descripcion: ");
-            sb.Append(this.descripcion);
+            sb.Append("Descripcion: ");
+            sb.AppendLine(this.descripcion);
 
-            sb.AppendLine("Codigo: ");
-            sb.Append(this.codigo.ToString());
+            sb.Append("Codigo: ");
+            sb.AppendLine(this.codigo.ToString());
 
-            sb.AppendLine("Precio: ");
-            sb.Append(this.precio.ToString());
+            sb.Append("Precio: ");
+            sb.AppendLine(this.precio.ToString());
 
-            sb.AppendLine("Stock: ");
-            sb.Append(this.stock.ToString());
+            sb.Append("Stock: ");
+            sb.AppendLine(this.stock.ToString());
 
             return sb.ToString();
         }

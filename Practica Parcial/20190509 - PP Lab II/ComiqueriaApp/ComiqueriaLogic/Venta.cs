@@ -29,7 +29,7 @@ namespace ComiqueriaLogic
         }
 
         private void Vender (int cantidad) {
-            this.fecha = DateTime.Today;
+            this.fecha = DateTime.Now;
             producto.Stock = producto.Stock - cantidad;
             this.precioFinal = Venta.CalcularPrecioFinal(producto.Precio,cantidad);
 
@@ -39,7 +39,8 @@ namespace ComiqueriaLogic
         {
             double precio = precioUnidad * cantidad;
 
-            return precio * (Venta.porcentajeIva / 100);
+            //return precio * (Venta.porcentajeIva / 100);
+            return precio * (1 + 21 / 100.0);
         }
         public string ObtenerDescripcionBreve()
         {
