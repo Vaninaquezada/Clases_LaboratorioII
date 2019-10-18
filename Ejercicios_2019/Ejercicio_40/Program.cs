@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +29,23 @@ namespace Ejercicio_40
             Console.WriteLine(c.ToString());
             c.Llamadas.Add(l4);
             Console.WriteLine(c.ToString());
-            c.OrdenarLlamadas();
+
+      try
+      {
+        c += l4;
+      }
+      catch (CentralitaException e)
+      {
+
+        Console.WriteLine(e.Message);
+      }
+      catch (Exception e)
+      {
+
+        Console.WriteLine(e.Message);
+      }
+      c.OrdenarLlamadas();
+
             Console.WriteLine(c.ToString());
             Console.ReadKey();
         }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,109 +6,141 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_4_Entidades
 {
-    public class Centralita
+  public class Centralita
+  {
+    private List<Llamada> listaLlamadas;
+    protected string razonSocial;
+
+    public Centralita()
     {
-        private List<Llamada> listaLlamadas;
-        protected string razonSocial;
+     this.listaLlamadas = new List<Llamada>();
+    }
+    public Centralita(string nombreEmpresa) : this()
+    {
+      this.razonSocial = nombreEmpresa;
+    }
+    #region Propiedades
+    public float GananciasPorLocal
+    {
+      get { return this.CalcularGanancia(Llamada.TipoLlamada.Local); }
+    }
+    public float GananciasPorProvincia
+    {
+      get { return this.CalcularGanancia(Llamada.TipoLlamada.Provincial); }
+    }
+    public float GananciasPorTotal
+    {
+      get { return this.CalcularGanancia(Llamada.TipoLlamada.Todas); }
+    }
+    public List<Llamada> Llamadas
+    {
+      get { return this.listaLlamadas; }
+    }
 
-        public Centralita() {
-            this.listaLlamadas = new List<Llamada>();
-        }
-        public Centralita(string nombreEmpresa):this() {
-            this.razonSocial = nombreEmpresa;
-        }
-        #region Propiedades
-        public float GananciasPorLocal
+    #endregion
+
+    private void AgregarLlamada(Llamada nuevaLlamada)
+    {
+      this.listaLlamadas.Add(nuevaLlamada);
+    }
+
+    private float CalcularGanancia(Llamada.TipoLlamada tipo)
+    {
+
+      float suma = 0;
+
+      foreach (var item in this.listaLlamadas)
+      {
+
+
+
+        switch (tipo)
         {
-            get { return this.CalcularGanancia(Llamada.TipoLlamada.Local); }
-        }
-        public float GananciasPorProvincia
-        {
-            get { return this.CalcularGanancia(Llamada.TipoLlamada.Provincial); }
-        }
-        public float GananciasPorTotal
-        {
-            get { return this.CalcularGanancia(Llamada.TipoLlamada.Todas); }
-        }
-        public List<Llamada> Llamadas
-        {
-            get { return this.listaLlamadas; }
-        }
-
-        #endregion
-
-        private void AgregarLlamada(Llamada nuevaLlamada)
-        {
-            this.listaLlamadas.Add(nuevaLlamada);
-        }
-
-        private float CalcularGanancia(Llamada.TipoLlamada tipo) {
-
-            float suma = 0;
-
-            foreach (var item in this.listaLlamadas)
+          case Llamada.TipoLlamada.Local:
+            if (item is Local)
             {
-
-                if (item.GetType().ToString() == tipo.ToString()) {
-                   suma += item.CostoLlamada;
-                }
-            }
-          
-
-            return suma;
-        }
-        private string Mostrar()
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Ganacia Total: " + this.GananciasPorTotal);
-            sb.AppendLine("Ganacia Provincia: " + this.GananciasPorProvincia);
-            sb.AppendLine("Ganacia Local: " + this.GananciasPorLocal);
-
-            foreach (var item in this.listaLlamadas)
-            {
-                sb.Append(item.ToString());
-            }
-            return sb.ToString();
-        }
-
-        public void OrdenarLlamadas()
-        {
-            //this.listaLlamadas.Sort();
-        }
-        public override string ToString()
-        {
-            return this.Mostrar();
-        }
-        public static bool operator  ==(Centralita c,Llamada llamada){
-
-            bool existe = false;
-
-            foreach (var item in c.listaLlamadas)
-            {
-                if (item == llamada) {
-
-                    existe = true;
-                }
-              
-            }
-            return existe;
-        }
-        public static Centralita operator  +(Centralita c, Llamada nuevaLlamada)
-        {
-
-            if (c != nuevaLlamada)
-            {
-                c.AgregarLlamada(nuevaLlamada);
+              suma += item.CostoLlamada;
             }
 
-            return c;
-          }
+            break;
+          case Llamada.TipoLlamada.Provincial:
+            if (item is Provincial)
+            {
+              suma += item.CostoLlamada;
+            }
+            break;
+          case Llamada.TipoLlamada.Todas:
+            suma += item.CostoLlamada;
 
-            public static bool operator !=(Centralita c, Llamada llamada){
-
-                    return !(c == llamada);
-
-                }
+            break;
+          default:
+            break;
         }
+      }
+
+
+      return suma;
+    }
+    private string Mostrar()
+    {
+      StringBuilder sb = new StringBuilder();
+      sb.AppendLine("Ganacia Total: " + this.GananciasPorTotal);
+      sb.AppendLine("Ganacia Provincia: " + this.GananciasPorProvincia);
+      sb.AppendLine("Ganacia Local: " + this.GananciasPorLocal);
+
+      foreach (var item in this.listaLlamadas)
+      {
+        sb.Append(item.ToString());
+      }
+      return sb.ToString();
+    }
+
+    public void OrdenarLlamadas()
+    {
+      //this.listaLlamadas.Sort();
+    }
+    public override string ToString()
+    {
+      return this.Mostrar();
+    }
+    public static bool operator ==(Centralita c, Llamada llamada)
+    {
+
+      bool existe = false;
+
+      foreach (var item in c.listaLlamadas)
+      {
+        if (item == llamada)
+        {
+
+          existe = true;
+        }
+
+      }
+      return existe;
+    }
+    public static Centralita operator +(Centralita c, Llamada nuevaLlamada)
+    {
+
+      if (c != nuevaLlamada)
+      {
+        c.AgregarLlamada(nuevaLlamada);
+      }
+      else
+      {
+       // throw new Exception();
+      throw new CentralitaException("Ya existe la llamada", "+", "centralita");
+      }
+
+      return c;
+    }
+
+    public static bool operator !=(Centralita c, Llamada llamada)
+    {
+
+      return !(c == llamada);
+
+    }
+  }
 
 }

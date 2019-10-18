@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +13,7 @@ namespace Ejercicio_33_2
         public Libro()
         {
 
-            this.paginas = new List<string>;
+            this.paginas = new List<string>();
 
         }
 
