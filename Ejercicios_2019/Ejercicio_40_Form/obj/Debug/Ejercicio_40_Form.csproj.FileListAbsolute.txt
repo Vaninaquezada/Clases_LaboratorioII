@@ -1,0 +1,14 @@
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\bin\Debug\Ejercicio_40_Form.exe.config
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\bin\Debug\Ejercicio_40_Form.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\bin\Debug\Ejercicio_40_Form.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\bin\Debug\Ejercicio_4_Entidades.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\bin\Debug\Ejercicio_4_Entidades.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.FrmMenu.resources
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.Properties.Resources.resources
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.csproj.CopyComplete
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\Ejercicios_2019\Ejercicio_40_Form\obj\Debug\Ejercicio_40_Form.FormLlamador.resources
