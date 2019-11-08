@@ -68,7 +68,7 @@ namespace WindowsFormsApp2
 
         private void HilosForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (this.hilo.IsAlive)
+            if (this.hilo != null && this.hilo.IsAlive)
             {
                 this.hilo.Abort();
             }
