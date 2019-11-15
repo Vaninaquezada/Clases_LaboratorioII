@@ -60,7 +60,7 @@
             this.lblPatenteNro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPatenteNro.Location = new System.Drawing.Point(1, 16);
             this.lblPatenteNro.Name = "lblPatenteNro";
-            this.lblPatenteNro.Size = new System.Drawing.Size(127, 23);
+            this.lblPatenteNro.Size = new System.Drawing.Size(127, 100);
             this.lblPatenteNro.TabIndex = 1;
             this.lblPatenteNro.Text = "VACIO";
             this.lblPatenteNro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

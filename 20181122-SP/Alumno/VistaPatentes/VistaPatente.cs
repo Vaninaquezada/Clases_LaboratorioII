@@ -13,6 +13,10 @@ using Entidades;
 
 namespace Patentes
 {
+    public delegate void FinExposicionPatente(VistaPatente vp);
+    public delegate void MostrarPatente(object patente);
+
+
     public partial class VistaPatente : UserControl
     {        
         public VistaPatente()
