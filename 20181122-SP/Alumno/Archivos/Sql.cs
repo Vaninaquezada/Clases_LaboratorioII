@@ -10,8 +10,16 @@ using Entidades;
 
 namespace Archivos
 {
-    public class Sql
+    public class Sql : IArchivo<Queue<Patente>>
     {
-        
+        public void Guardar(string archivo, Queue<Patente> datos)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Leer(string archivo, out Queue<Patente> datos)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
