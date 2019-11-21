@@ -49,8 +49,9 @@
             // picPatente
             // 
             this.picPatente.Location = new System.Drawing.Point(0, 0);
+            this.picPatente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picPatente.Name = "picPatente";
-            this.picPatente.Size = new System.Drawing.Size(128, 48);
+            this.picPatente.Size = new System.Drawing.Size(171, 59);
             this.picPatente.TabIndex = 0;
             this.picPatente.TabStop = false;
             // 
@@ -58,21 +59,23 @@
             // 
             this.lblPatenteNro.BackColor = System.Drawing.Color.White;
             this.lblPatenteNro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPatenteNro.Location = new System.Drawing.Point(1, 16);
+            this.lblPatenteNro.Location = new System.Drawing.Point(2, 0);
+            this.lblPatenteNro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPatenteNro.Name = "lblPatenteNro";
-            this.lblPatenteNro.Size = new System.Drawing.Size(127, 100);
+            this.lblPatenteNro.Size = new System.Drawing.Size(169, 59);
             this.lblPatenteNro.TabIndex = 1;
             this.lblPatenteNro.Text = "VACIO";
             this.lblPatenteNro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VistaPatente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lblPatenteNro);
             this.Controls.Add(this.picPatente);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "VistaPatente";
-            this.Size = new System.Drawing.Size(128, 48);
+            this.Size = new System.Drawing.Size(170, 73);
             ((System.ComponentModel.ISupportInitialize)(this.picPatente)).EndInit();
             this.ResumeLayout(false);
 

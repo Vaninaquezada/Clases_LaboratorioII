@@ -28,36 +28,47 @@ namespace Entidades
             throw null;
         }
      */
-   public static class PatenteStringExtension
+    public static class PatenteStringExtension
     {
-
         public const string patente_vieja = "^[A-Z]{3}[0-9]{3}$";
         public const string patente_mercosur = "^[A-Z]{2}[0-9]{3}[A-Z]{2}$";
 
-        public static Patente ValidarPatente(this string str)
+        /// <summary>
+        /// Validar formato de patente
+        /// </summary>
+        /// <param name="str">Patente</param>
+        /// <returns>Patente validada</returns>
+        public static Patente ValidarPatente(this String str)
         {
+            Patente p = null;
 
+            try
+            {
+                Regex rgx_v = new Regex(PatenteStringExtension.patente_vieja);
+                Regex rgx_n = new Regex(PatenteStringExtension.patente_mercosur);
 
-        Regex rgx_v = new Regex(PatenteStringExtension.patente_vieja);
-        Regex rgx_n = new Regex(PatenteStringExtension.patente_mercosur);
-            Patente patente;
+                if (rgx_v.IsMatch(str))
+                {
+                    p = new Patente(str, Patente.Tipo.Vieja);
+                }
+                else if (rgx_n.IsMatch(str))
+                {
+                    p = new Patente(str, Patente.Tipo.Mercosur);
+                }
+                else
+                {
+                    //string s = string.Format("{0} no cumple el formato.", str);
+                    //throw new PatenteInvalidaException(s);
+                    throw null;
+                }
+            }
+            catch (Exception e)
+            {
+                string s = string.Format("{0} no cumple el formato.", str);
+                throw new PatenteInvalidaException(s, e);
+            }
 
-        if (rgx_v.IsMatch(str))
-        {
-            patente = new Patente(str, Patente.Tipo.Vieja);
-    }
-        else if (rgx_n.IsMatch(str))
-        {
-                patente = new Patente(str, Patente.Tipo.Mercosur);
-}
-        else
-        {
-            string s = string.Format("{0} no cumple el formato.", str);
-            throw new PatenteInvalidaException(s);
-           
-        }
-
-            return patente;
+            return p;
         }
     }
 }

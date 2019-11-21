@@ -4,3 +4,9 @@ C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\En
 C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.dll
 C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\bin\Debug\Entidades.dll
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.dll
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.pdb

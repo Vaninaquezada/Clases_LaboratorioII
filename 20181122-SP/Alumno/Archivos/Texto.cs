@@ -14,9 +14,14 @@ namespace Archivos
         {
             try
             {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(AppDomain.CurrentDomain.BaseDirectory + archivo + ".txt", true))
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(archivo, true))
                 {
-                    file.WriteLine(datos);
+
+                    foreach (Patente item in datos)
+                    {
+                            file.WriteLine(item);
+                    }
+                    
                 }
 
 
@@ -29,9 +34,10 @@ namespace Archivos
 
         public void Leer(string archivo, out Queue<Patente> datos)
         {
+            datos = null;
             try
             {
-                using (System.IO.StreamReader file = new System.IO.StreamReader(AppDomain.CurrentDomain.BaseDirectory + archivo + ".txt", true))
+                using (System.IO.StreamReader file = new System.IO.StreamReader(archivo, true))
                 {
                     String line;
 
@@ -46,9 +52,9 @@ namespace Archivos
 
                
             }
-            catch (Exception e)
+            catch (PatenteInvalidaException)
             {
-                throw new Exception(e.Message);
+                //throw new Exception(e.Message);
             }
         }
 

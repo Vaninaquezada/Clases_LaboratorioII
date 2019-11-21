@@ -33,3 +33,16 @@ C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\Vi
 C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.csproj.CopyComplete
 C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.dll
 C:\Users\alumno\Desktop\Nueva carpeta\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.pdb
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\bin\Debug\VistaPatentes.dll.config
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\bin\Debug\VistaPatentes.dll
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\bin\Debug\VistaPatentes.pdb
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\bin\Debug\Entidades.dll
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\bin\Debug\Entidades.pdb
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.csprojAssemblyReference.cache
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.Properties.Resources.resources
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\Patentes.VistaPatente.resources
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.csproj.GenerateResource.cache
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.csproj.CoreCompileInputs.cache
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.csproj.CopyComplete
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.dll
+C:\Users\Vanina\source\repos\Clases_LaboratorioII\20181122-SP\Alumno\VistaPatentes\obj\Debug\VistaPatentes.pdb
